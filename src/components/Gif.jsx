@@ -11,7 +11,7 @@ const Gif = () => {
 
     return (
         <div className='flex flex-col items-center wrap'>
-            <p className='text-center mb-5'><span className='font-semibold text-sky-400'>Angely Viaña</span> Junto a Ysmelis queremos desearte un Feliz cumpleaños, aqui esta tu regalo:</p>
+            <p className='text-center mb-5'><span className='font-semibold text-sky-400 text-2xl px-2'>Angely Viaña</span> Junto a <span className='font-black'>Ysmelis y Luis</span> queremos desearte un Feliz cumpleaños, aqui esta tu regalo:</p>
             
             <button
             onClick={() => navigate(`/bono`)}
