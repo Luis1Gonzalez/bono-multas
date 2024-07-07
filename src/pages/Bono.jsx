@@ -2,7 +2,7 @@ import bom1 from '../assets/gift-3.svg'
 import bom2 from '../assets/gift-5.svg'
 import bom3 from '../assets/gift-1.svg'
 import bom4 from '../assets/gift-2.svg'
-import triangle from '../assets/triangulo.png'
+
 
 const Bono = () => {
 
@@ -23,9 +23,9 @@ const Bono = () => {
             <div className="py-3 px-2 bg-red-100 text-orange-500 font-medium flex flex-col items-center">
             <img src={bom4} alt="" />
                 <div>
-                        <p className='text-3xl text-center mb-5'>Disfruta tu Bono Multas</p>
+                        <p className='text-4xl text-center mb-5'>Disfruta tu Bono Multas</p>
 
-                    <p className='text-3xl mb-3'>No mas multas por <span>año</span></p>
+                    <p className='text-3xl mb-3 text-center'>No mas multas por un <span className='font-bold text-4xl'>Año</span></p>
                 </div>
 
                 <p className='text-md text-black text-sm italic mt-5'>Valido hasta el 06 de Julio de 2025</p>

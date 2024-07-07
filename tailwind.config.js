@@ -3,7 +3,8 @@ module.exports = {
   theme: {
      extend: {
       colors: {
-        claro: '#fbeeee'
+        claro: '#fbeeee',
+        gift: '#bce1db'
       }
      },
    },
