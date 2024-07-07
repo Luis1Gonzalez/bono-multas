@@ -3,16 +3,20 @@ import Login from "../assets/login.svg"
 import Cart from "../assets/cart.svg"
 import Search from "../assets/search.svg"
 import Register from "../assets/registra.svg"
+import { useNavigate } from "react-router-dom"
 
 
 const Header = () => {
+    const navigate = useNavigate()
     return (
         <div className="w-[100%] py-7 px-4">
             <div className="flex">
                 <div className="w-[15%] flex items-center">
                     <img src={Hamb} alt="logo menú" />
                 </div>
-                <div className=" text-orange-600 font-medium text-2xl w-[50%] tracking-wide">smartbox</div>
+                <p
+                onClick={() => navigate(`/`)}
+                className=" text-orange-600 font-medium text-2xl w-[50%] tracking-wide cursor-pointer">smartbox</p>
                 <div className="flex  w-[35%] justify-around items-center">
                     <div className="">
                         <img src={Login} alt="logo sesión" />
