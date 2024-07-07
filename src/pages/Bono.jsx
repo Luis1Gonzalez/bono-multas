@@ -23,16 +23,11 @@ const Bono = () => {
             <div className="py-3 px-2 bg-red-100 text-orange-500 font-medium flex flex-col items-center">
             <img src={bom4} alt="" />
                 <div>
-                    <div>
                         <p className='text-3xl text-center mb-5'>Disfruta tu Bono Multas</p>
-                    </div>
 
                     <p className='text-3xl mb-3'>No mas multas por <span>año</span></p>
                 </div>
-                <img
-                    className='h-[200px]'
-                    src={triangle}
-                    alt="pegatina" />
+
                 <p className='text-md text-black text-sm italic mt-5'>Valido hasta el 06 de Julio de 2025</p>
                 <img src={bom3} alt="" />
             </div>
