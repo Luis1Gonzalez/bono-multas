@@ -6,7 +6,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 const Core = () => {
   return (
-    <div className="krub-regular w-[320px]">
+    <div className="krub-regular w-[400px]">
       <BrowserRouter>
         <Header />
         <Routes>
