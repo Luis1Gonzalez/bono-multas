@@ -15,7 +15,7 @@ const Gif = () => {
             
             <button
             onClick={() => navigate(`/bono`)}
-            className='p-4 rounded-3xl mb-5 bg-sky-300 hover:bg-sky-400 font-medium shadow-2xl border'>Descargalo aqui</button>
+            className='p-4 rounded-3xl mb-5 bg-sky-300 hover:bg-sky-400 font-medium shadow-2xl border'>Miralo aqui</button>
             
             <div className='bg-sky-300 flex flex-col items-center pb-5'>
                 <img className="" src={verano} alt="" />
